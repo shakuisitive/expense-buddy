@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import useAuthContext from "../../hooks/useAuthContext";
+import { useState } from "react";
 import useSignup from "../../hooks/useSignup";
 import styles from "./Signup.module.css";
 

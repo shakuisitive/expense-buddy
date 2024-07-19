@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -7,13 +7,13 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAnj4XKHG0U74fE3kP9qZD2elbKr9-YNHU",
-  authDomain: "mymoneyfinancetracker.firebaseapp.com",
-  projectId: "mymoneyfinancetracker",
-  storageBucket: "mymoneyfinancetracker.appspot.com",
-  messagingSenderId: "1047159463162",
-  appId: "1:1047159463162:web:c22e37aa53fa4f60f73d43",
-  measurementId: "G-S0EC5FQBWG",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
