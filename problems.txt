@@ -1,0 +1,6 @@
+1 - Problem is in useFirestore.js  and since we're importing that into TransactionForm.js, that's causing problem too.
+	Turn them off and start debugging.
+
+
+2 - Problem fetching this in useFirestore.js
+	  // let ref = projectFirestore.collection("transactions");
