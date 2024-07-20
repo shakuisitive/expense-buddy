@@ -9,7 +9,9 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <ul>
-        <li className={styles.title}>expenseBuddy</li>
+        <li className={styles.title}>
+          <Link to={"/"}>expenseBuddy</Link>
+        </li>
 
         {!user && (
           <>
