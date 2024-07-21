@@ -1,6 +1,7 @@
 Use this credential to login and test the app.
 
-Email: johnsmith@gmail.com <br>
+App: https://myexpensebuddy.netlify.app/ <br/>
+Email: johnsmith@gmail.com <br/>
 Password: testpw123
 
 # Getting Started with Create React App
