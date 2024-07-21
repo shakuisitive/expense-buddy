@@ -1,6 +1,6 @@
 Use this credential to login and test the app.
 
-Email: johnsmith@gmail.com 
+Email: johnsmith@gmail.com <br>
 Password: testpw123
 
 # Getting Started with Create React App
