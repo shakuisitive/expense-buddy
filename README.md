@@ -1,3 +1,8 @@
+Use this credential to login and test the app.
+
+Email: johnsmith@gmail.com 
+Password: testpw123
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
